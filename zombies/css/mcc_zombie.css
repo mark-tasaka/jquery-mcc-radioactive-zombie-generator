@@ -1,0 +1,124 @@
+/*MCC Radioactive Mutant Zombies*/
+body{
+	font-family: sans-serif;
+	font-size: 0.85em;
+}
+
+#character_sheet{
+    width: 1050px;
+    height: auto;
+	display: block;
+}
+
+#topleft{
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	width: 525px;
+	height: 425px;
+}
+
+#topright{
+	position:absolute;
+	top: 0px;
+	left: 525px;
+	width: 525px;
+	height: 425px;
+}
+
+#middleleft{
+	position:absolute;
+	top: 425px;
+	left: 0px;
+	width: 525px;
+	height: 425px;
+}
+
+#middleright{
+	position:absolute;
+	top: 425px;
+	left: 525px;
+	width: 525px;
+	height: 425px;
+}
+#bottomleft{
+	position:absolute;
+	top: 850px;
+	left: 0px;
+	width: 525px;
+	height: 425px;
+}
+
+#bottomright{
+	position:absolute;
+	top: 850px;
+	left: 525px;
+	width: 525px;
+	height: 425px;
+}
+
+/*Zombies*/
+
+
+#headshot0, #headshot1, #headshot2, #headshot3, #headshot4, #headshot5{
+    position: absolute;
+    top: 45px;
+    left: 15px;
+}
+
+#hpBox0, #hpBox1, #hpBox2, #hpBox3, #hpBox4, #hpBox5{
+    position: absolute;
+    top: 250px;
+    left: 45px;
+}
+
+
+#statLine0, #statLine1, #statLine2, #statLine3, #statLine4, #statLine5{
+    position: absolute;
+    top: 120px;
+    left: 160px;
+    width: 350px;
+    font-weight: bold;
+}
+
+#attack0, #attack1, #attack2, #attack3, #attack4, #attack5{
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    font-weight: bold;
+    
+}
+
+#attackDescription0, #attackDescription1, #attackDescription2, #attackDescription3, #attackDescription4, #attackDescription5 {
+    position: absolute;
+    top: 200px;
+    left: 160px;
+    font-size: 0.75em;
+    
+}
+
+
+#trait0, #trait1, #trait2, #trait3, #trait4, #trait5{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    font-weight: bold;
+    
+}
+
+
+#traitDescription0, #traitDescription1, #traitDescription2, #traitDescription3, #traitDescription4, #traitDescription5{
+    position: absolute;
+    top: 320px;
+    left: 30px;
+    font-size: 0.75em;
+    
+}
+
+#traitName0, #traitName1, #traitName2, #traitName3, #traitName4, #traitName5{
+    position: relative;
+    font-weight: bold;
+    
+}
+
+

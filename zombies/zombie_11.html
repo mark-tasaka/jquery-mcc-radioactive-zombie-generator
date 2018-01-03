@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mutant Crawl Classics Mutant Zombie Generator</title>
+    
+	<meta charset="UTF-8">
+	<meta name="description" content="Mutant Crawl Classics Zombie Generator. Goodman Games.">
+	<meta name="keywords" content="Mutant Crawl Classics, Goodman Games,HTML5,CSS,JavaScript">
+	<meta name="author" content="Mark Tasaka 2018">
+    
+	<link rel="stylesheet" type="text/css" href="css/mcc_zombie.css">
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <script type="text/javascript" src="./js/headshot.js"></script>
+    <script type="text/javascript" src="./js/zombieAttacks.js"></script>
+    <script type="text/javascript" src="./js/traits.js"></script>
+    
+
+    
+	
+</head>
+<body>
+	
+
+	
+   
+  <img id="character_sheet"/>
+   <section>
+       
+       
+       <aside id="topleft">
+           
+           <img id="headshot0" />
+           
+           <span id="statLine0">Init -2; AC: <span id="armourClass0"></span>; hp: <span id="hitPoints0"></span>; HD 2d8; MV 20'; SP un-dead; Fort +<span id="fort0"></span>  Ref <span id="ref0"></span>  Will +<span id="will0"></span>; AL C.</span>
+           
+           <span id="attack0">
+               <span id="attackName0"></span> 
+               <span id="attackValue0"></span>
+                </span>
+               <span id="attackDescription0"></span>
+               
+           
+           <span id="trait0">Radioactive Mutant Zombie Trait:</span>
+           <span id="traitDescription0"><span id="traitName0"></span> <span id="traitEffect0"></span></span>
+           
+           <span id="hpBox0"></span>
+       
+       
+       
+       </aside>
+       
+       
+       <aside id="topright">
+           
+           <img id="headshot1" />
+           
+           <span id="statLine1">Init -2; AC: <span id="armourClass1"></span>; hp: <span id="hitPoints1"></span>; HD 2d8; MV 20'; SP un-dead; Fort +<span id="fort1"></span>  Ref <span id="ref1"></span>  Will +<span id="will1"></span>; AL C.</span>
+           
+           <span id="attack1">
+               <span id="attackName1"></span> 
+               <span id="attackValue1"></span>        
+               </span>
+       
+               <span id="attackDescription1"></span>
+           
+           <span id="trait1">Radioactive Mutant Zombie Trait:</span>
+           <span id="traitDescription1"><span id="traitName1"></span> <span id="traitEffect1"></span></span>
+       
+           <span id="hpBox1"></span>
+       
+       </aside>
+       
+       
+       
+       <aside id="middleleft">
+           
+           <img id="headshot2" />
+           
+           <span id="statLine2">Init -2; AC: <span id="armourClass2"></span>; hp: <span id="hitPoints2"></span>; HD 2d8; MV 20'; SP un-dead; Fort +<span id="fort2"></span>  Ref <span id="ref2"></span>  Will +<span id="will2"></span>; AL C.</span>
+           
+           <span id="attack2">
+               <span id="attackName2"></span> 
+               <span id="attackValue2"></span>
+                </span>
+               <span id="attackDescription2"></span>
+              
+       
+           <span id="trait2">Radioactive Mutant Zombie Trait:</span>
+           <span id="traitDescription2"><span id="traitName2"></span> <span id="traitEffect2"></span></span>
+       
+       
+           <span id="hpBox2"></span>
+       
+       </aside>
+       
+       
+       
+       <aside id="middleright">
+           
+           <img id="headshot3" />
+           
+           <span id="statLine3">Init -2; AC: <span id="armourClass3"></span>; hp: <span id="hitPoints3"></span>; HD 2d8; MV 20'; SP un-dead; Fort +<span id="fort3"></span>  Ref <span id="ref3"></span>  Will +<span id="will3"></span>; AL C.</span>
+           
+           <span id="attack3">
+               <span id="attackName3"></span> 
+               <span id="attackValue3"></span>
+                </span>
+               <span id="attackDescription3"></span>
+               
+       
+           <span id="trait3">Radioactive Mutant Zombie Trait:</span>
+           <span id="traitDescription3"><span id="traitName3"></span> <span id="traitEffect3"></span></span>
+       
+           <span id="hpBox3"></span>
+       
+       </aside>
+       
+       
+       <aside id="bottomleft">
+           
+           <img id="headshot4" />
+           
+           <span id="statLine4">Init -2; AC: <span id="armourClass4"></span>; hp: <span id="hitPoints4"></span>; HD 2d8; MV 20'; SP un-dead; Fort +<span id="fort4"></span>  Ref <span id="ref4"></span>  Will +<span id="will4"></span>; AL C.</span>
+           
+           <span id="attack4">
+               <span id="attackName4"></span> 
+               <span id="attackValue4"></span>
+                </span>
+               <span id="attackDescription4"></span>
+               
+       
+       
+           <span id="trait4">Radioactive Mutant Zombie Trait:</span>
+           <span id="traitDescription4"><span id="traitName4"></span> <span id="traitEffect4"></span></span>
+       
+           <span id="hpBox4"></span>
+       </aside>
+       
+       
+       
+       <aside id="bottomright">
+           
+           <img id="headshot5" />
+           
+           <span id="statLine5">Init -2; AC: <span id="armourClass5"></span>; hp: <span id="hitPoints5"></span>; HD 2d8; MV 20'; SP un-dead; Fort +<span id="fort5"></span>  Ref <span id="ref5"></span>  Will +<span id="will5"></span>; AL C.</span>
+           
+            <span id="attack5">
+               <span id="attackName5"></span> 
+               <span id="attackValue5"></span>
+                 </span>
+               <span id="attackDescription5"></span>
+               
+       
+       
+           <span id="trait5">Radioactive Mutant Zombie Trait:</span>
+           <span id="traitDescription5"><span id="traitName5"></span> <span id="traitEffect5"></span></span>
+       
+           <span id="hpBox5"></span>
+       
+       </aside>
+
+	</section>
+	
+
+		
+  <script>
+      
+      function Zombie()
+      {
+          var profilePhoto = headshot();
+          var attackTypes = zombieAttack();
+          var zombieTrait = zombieTraits();
+          var armourClass = ajustArmourClass(zombieTrait);
+          
+          var mutantZombie = 
+              {
+                  
+                  "zombiePhoto": "images/headshot/zombie" + profilePhoto.image + ".png",
+                  //"zombiePhoto": "images/headshot/zombie" + zombieImage[getHeadshot[]] + ".png",
+                  "hp": Math.floor(Math.random() * 8) + Math.floor(Math.random() * 8) + 2,
+                  "foritude":  Math.floor(Math.random() * 6) + 2,
+                  "reflex":  Math.floor(Math.random() * 4) -4,
+                  "willpower":  Math.floor(Math.random() * 4) + 2,
+                  "attackName": attackTypes.name,
+                  "attackValue": attackTypes.value1,
+                  "attackDescr": attackTypes.description,
+                  "traits": zombieTrait.name,
+                  "traitDescription": zombieTrait.description,
+                  "ac": armourClass
+                  
+              };
+          
+          return mutantZombie;
+      }
+      
+      
+      function ajustArmourClass(zombieTraits) {
+          
+          var ac = Math.floor(Math.random() * 4) + 8;
+          
+          if(zombieTraits.name === "Hard Shell."){
+              ac = 18;
+          }
+          
+          return ac;
+      }
+      
+
+
+
+    
+        var imgData = "images/zombie_sheet.png";
+        $("#character_sheet").attr("src", imgData);
+
+	  var data = [Zombie(),Zombie(),Zombie(),Zombie(),Zombie(),Zombie()];
+	  for(var index = 0; index < 6 ; index++){
+          
+          $("#headshot" + index).attr("src", data[index].zombiePhoto);
+          $("#armourClass" + index).html(data[index].ac);
+          $("#hitPoints" + index).html(data[index].hp);
+          $("#fort" + index).html(data[index].foritude);
+          $("#ref" + index).html(data[index].reflex);
+          $("#will" + index).html(data[index].willpower);
+          
+          $("#attackName" + index).html(data[index].attackName);
+          $("#attackValue" + index).html(data[index].attackValue);
+          $("#attackDescription" + index).html(data[index].attackDescr);
+          
+          $("#traitName" + index).html(data[index].traits);
+          $("#traitEffect" + index).html(data[index].traitDescription);
+          
+          $("#hpBox" + index).html( "(max: " + data[index].hp + " hp)" );
+          
+	  
+	  }
+
+		 
+
+  </script>
+		
+	
+    
+</body>
+</html>
